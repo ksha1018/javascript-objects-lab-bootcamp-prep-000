@@ -27,3 +27,5 @@ function destructivelyDeleteFromObjectByKey(object, key){
 console.log(updateObjectWithKeyAndValue(recipes, "dinner", "chicken"));
 console.log(destructivelyUpdateObjectWithKeyAndValue(recipes, "dinner", "chicken"));
 
+console.log(deleteFromObjectByKey(recipes, "dinner"));
+console.log(recipes);
